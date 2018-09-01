@@ -1,0 +1,35 @@
+{
+  "name": "ERC20Shop",
+  "author": "clemlak",
+  "description": "A smart contract based shop accepting a specific ERC20 token as payment",
+  "version": "0.1.0",
+  "license": "MIT",
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "smart-contracts",
+    "ERC20",
+    "blockchain",
+    "payment",
+    "dapp"
+  ],
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clemlak/ERC20Shop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/clemlak/ERC20Shop/issues"
+  },
+  "homepage": "https://github.com/clemlak/ERC20Shop",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "openzeppelin-solidity": "^1.12.0",
+    "truffle-hdwallet-provider": "0.0.5"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
